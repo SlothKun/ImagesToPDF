@@ -18,26 +18,29 @@ example :
 i created a folder "to_convert" in the path : "C:/User/UserName/Desktop"
 the folder have to following structure :
 
-to_convert\n
-  |_ Diapositives\n
-        |_ Diap1.png\n
-        |_ Diap2.png\n
-        |_ Diap3.png\n
-        |_ Diap4.png\n
-   |_ PlasticLoveImagePartition\n
-        |_ Partition1.jpeg\n
-        |_ Partition2.jpeg\n
-        |_ Partition3.jpeg\n
-   |_ dog.jpeg\n
-   |_ CuteSloth.png\n
+to_convert
+
+    |_ Diapositives
+        |_ Diap1.png
+        |_ Diap2.png
+        |_ Diap3.png
+        |_ Diap4.png
+        
+    |_ PlasticLoveImagePartition\n
+        |_ Partition1.jpeg
+        |_ Partition2.jpeg
+        |_ Partition3.jpeg
+    |_ dog.jpeg
+    |_ CuteSloth.png
 
 The full path is : "C:/User/UserName/Desktop/to_convert"
 I give it to the script when asked and the following structure will be created at "C:/User/UserName/Desktop/"
 
 PDF_Output
-   |_ Diapositives
+
+    |_ Diapositives
         |_ Diapositives.pdf   <- contain Diap1.png, Diap2.png, Diap3.png, Diap4.png
-   |_ PlasticLoveImagePartition
+    |_ PlasticLoveImagePartition
         |_ PlasticLoveImagePartition.pdf <- contain Partition1.jpeg, Partition2.jpeg, Partition3.jpeg
-   |_ dog.pdf
-   |_ CuteSloth.pdf
+    |_ dog.pdf
+    |_ CuteSloth.pdf
